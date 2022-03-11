@@ -39,8 +39,10 @@ publishing {
     }
 }
 
+// for jitpack
 tasks.register<InstallTask>("install")
 tasks.named("install") {
+    dependsOn(tasks.named("clean"))
     dependsOn(tasks.named("build"))
 }
 
