@@ -13,8 +13,8 @@ apply(plugin = "maven-publish")
 
 group = "me.konicai"
 version = "1.0.0"
-java.sourceCompatibility = JavaVersion.VERSION_1_8
-java.targetCompatibility = JavaVersion.VERSION_1_8
+java.sourceCompatibility = JavaVersion.VERSION_16
+java.targetCompatibility = JavaVersion.VERSION_16
 
 tasks.withType<JavaCompile> {
     options.encoding = "UTF-8"
