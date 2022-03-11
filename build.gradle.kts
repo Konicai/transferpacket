@@ -12,7 +12,7 @@ apply(plugin = "java-library")
 apply(plugin = "maven-publish")
 
 group = "me.konicai"
-version = "1.0.0"
+version = "1.1.0"
 java.sourceCompatibility = JavaVersion.VERSION_16
 java.targetCompatibility = JavaVersion.VERSION_16
 
