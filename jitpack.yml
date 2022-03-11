@@ -1,5 +1,6 @@
 jdk:
   - openjdk16
 install:
+  - java -version
   - chmod +x gradlew
   - ./gradlew clean install -xtest
